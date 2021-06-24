@@ -1,0 +1,792 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Lalezar');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+/*
+Copper : #c06b2a
+Yellow Gold : #e99d23
+*/
+
+html,
+body{
+width:100%;
+overflow-x:hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #fff;
+  color: #000/*#505962*/;
+  z-index: -1;
+}
+
+#nav-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  color: #c06b2a;
+  /*text-transform: uppercase;*/
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  text-align: center;
+  background: rgb(0,0,0);
+}
+
+.navbar-brand img {
+  height: 3.35rem;
+  padding-left: 0px;
+  
+}
+
+.navbar-nav li {
+  padding: 1rem;
+  font-size: 16px;
+  color: white;
+}
+
+.navbar-nav li a {
+  color: #e99d23;
+}
+
+.navbar-toggler {
+  margin-right: 5px;
+  outline-color: #fff;
+  outline-width: 5px;
+  outline: none;
+}
+
+.fa-bars {
+  color: #fff;
+  font-size: 30px;
+}
+
+#home {
+  padding-top: 150px;
+  position: relative;
+  background: rgb(255,255,255);
+  background-image: url("../assets/images/mascotAngledTall.png"),linear-gradient(172deg, rgba(46,147,93,1) 0%, rgba(255,255,255,1) 79%);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right bottom, center;
+  background-size: 600px, cover;
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  top: 20%;
+  color: #3aae73;
+  /*text-shadow: .2rem .2rem .8rem black;*/
+  padding-bottom: 0px;
+}
+
+#logo {
+  width: 95%;
+  vertical-align: center;
+
+}
+
+#mainTopic {
+  display: flex;
+  font-family: 'Russo One', sans-serif;
+  font-size: 11rem;
+  margin-top: 3.02%;
+}
+
+
+#jr2k20 {
+  color: #c06b2a;
+
+}
+
+
+#k {
+  color: #e99d23;
+}
+
+
+.subTopic {
+  /* font-family: 'Pacifico', cursive; */
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  padding-bottom: 0px;
+  color: #000 /*#e99d23*/;
+}
+
+.newline {
+    display: none;
+}
+.downloadbtn {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin: 20px auto 20px auto;
+  padding: 20px 40px 20px 40px;
+  background-color: #2e935d;
+  border: 2px #2e935d;
+  border-radius: 10px;
+}
+
+#regbtn {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 20px 40px 20px 40px;
+  background-color: #2E935D;
+  border: 5px #2E935D;
+  border-radius: 35px;
+}
+
+#regbtn:hover {
+  color: #000;
+  background-color: #42BE7F;
+}
+
+
+#regbtn-a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: #2E935D;
+  border: 5px #2E935D;
+}
+
+#regbtn-a:hover {
+  color: #2E935D;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: #fff;
+  border: 5px #2E935D;
+}
+
+.btn-lg {
+  text-shadow: none;
+  border-width: medium;
+  border-radius: 20px;
+}
+
+#bannermascot {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.bottom-img {
+  width: 100%;
+  opacity: 100%;
+}
+
+#about {
+  padding: 80px 0;
+  position: relative;
+  background: #fff;
+  color: #000;
+}
+
+.abouthead {
+  color: #000;
+}
+
+.what-img {
+  width: 100px;
+  margin-top: 20px;
+}
+
+.editedImg {
+  height: 100px;
+  width: 200px;
+}
+
+/* Info Section */
+#info {
+  background: #fff;
+  padding-bottom: 50px;
+  padding-top: 5px;
+  position: relative;
+}
+
+.info-title {
+  font-size: 40px;
+  font-weight: 600px;
+  margin-top: 8%;
+}
+
+.custom-list, .winner-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.custom-list li, .winner-list li {
+  position: relative;
+  padding-left: 50px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.custom-list li:before, .winner-list li:before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-image: url('../assets/images/star.png');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.winner-list {
+  padding-left: 20%;
+}
+
+.winner-list li {
+  padding-left: 100px;
+  margin-top: 40px;
+}
+
+.winner-list li:before {
+  width: 60px;
+  height: 80px;
+  position: absolute;
+  background-image: url('../assets/images/2ndplace.png');
+}
+
+.trophy {
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-filter: drop-shadow(1px 1px 1px #222);
+  filter: drop-shadow(1px 1px 1px #222);
+}
+
+.trophy img {
+  width: 110px;
+}
+
+.awarenessSession {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.lettering {
+  width: 30px;
+  /* border-radius: 32px; */
+}
+
+.letteringPara {
+  text-align: left;
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.padThis {
+  padding-left: 20px;
+}
+
+.padThis10 {
+  padding-left: 10px;
+}
+
+.textToLeft {
+  text-align: left;
+}
+
+.orderedList {
+  padding-left: 60px;
+}
+
+.orderedList li:before {
+  background-image: url(../assets/images/pen.png);
+}
+
+.topicText {
+  font-size: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.topicBox {
+  height: 50px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.topicImg {
+  vertical-align: middle;
+}
+
+#number {
+  background: #c06b2a;
+}
+
+#contact-form {
+    align-content:center;
+    justify-content: center;
+    
+}
+
+#footer {
+  background: #000/*linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 30%, rgba(192,107,42,1) 100%)*/;
+  color: white;
+}
+
+.footer-img {
+  width: 100%;
+}
+
+#changingText {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.hide {
+  opacity: 0 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.nav-item:hover {
+  color: #e99d23;
+}
+
+.nav-link.active {
+  color: #e99d23 !important;
+}
+
+.no-js #loader {
+  display: none;
+}
+
+.js #loader {
+  display: block;
+  position: absolute;
+  left: 100px;
+  top: 0;
+}
+
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(../assets/images/loader.gif) center no-repeat #fff;
+}
+
+
+.reg-hackx {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+    min-height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    overflow: scroll;
+}
+
+/*Finalists*/
+#tablerow {
+  font-size: 3rem;
+
+}
+#trow1 {
+  /*background: rgba(66,190,127,0.8);*/
+}
+
+#trow2 {
+  /*background: rgba(46,147,93,0.8);*/
+
+}
+#datal {
+  text-align: left;
+  color: #2E935D;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+#datar {
+  text-align: right;
+  color: #42BE7F ;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+/*Timer Popup Modal*/
+.modal { 
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.card {
+  background-color: #000;
+  background-image: url("../assets/images/mascotshort.png"),linear-gradient(172deg, rgba(66,190,127,1) 0%, rgba(20,20,20,1) 79%);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right bottom, center;
+  background-size: 650px, cover;
+  display: flex;
+  color: #fff;
+  width: 80%;
+  margin-top: 10px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 20px;  
+}
+
+#timerhead {
+  font-family: 'Dosis', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 5px;
+  margin: 0;
+  color: #fff;
+}
+
+#timertopic {
+  font-size: 3rem;
+  padding: 5px;
+  margin: 0;
+}
+
+.numbers {
+  width: 90%;
+  height:auto;
+  text-align: center;
+  background-color: #42BE7F;
+  color: #000;
+  text-shadow: -5px 0 #fff, 0 5px #fff, 5px 0 #fff, 0 -5px #fff;
+  border-radius: 20px;
+  font-family: 'Russo One', sans-serif;
+  font-size: 8rem;
+  margin: auto;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 60px;
+  transform: rotate(45deg);
+  cursor: pointer;
+  z-index: 1000;
+}
+
+/*Finalists table*/
+#tablehead {
+  font-family: 'Dosis', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 5px;
+  margin: 0;
+  color: #fff;
+}
+
+#tabledata {
+  align-items: center;
+  align-content: center;
+  font-size: 2rem;
+  padding: 5px;
+  margin: 0;
+}
+
+table {
+  width: 95%;
+  margin: auto auto 10px auto;
+}
+
+tr {
+}
+
+td {
+      padding: 2px 30px 2px 30px;
+
+}
+
+#c1 {
+  background: rgba(0,0,0,0.4);
+}
+
+#c2 {
+  background: rgba(50,50,50,0.4);
+
+}
+
+#lt {
+  text-align: left;
+  color: #E99D23;
+}
+
+#rt {
+  text-align: right;
+  color: #fff;
+}
+
+/*responsive*/
+@media only screen and (max-width: 1024px) {
+  #mainTopic {
+    display: flex;
+    text-align: center;
+  }
+
+  /*timer popup*/
+  .card {
+    width: 90%;
+  }
+  .numbers {
+    font-size: 3.8rem;
+  }
+  #timerhead {
+  font-size: 2.5rem;
+  }
+  #timertopic {
+  font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #mainTopic {
+    display: flex;
+    text-align: center;
+  }
+
+  /*timer popup*/
+  .card {
+    width: 90%;
+  }
+  .numbers {
+    font-size: 3.2rem;
+  }
+  #timerhead {
+  font-size: 2rem;
+  }
+  #timertopic {
+  font-size: 1.5rem;
+  }
+
+  /*finalist popup*/
+  #tablehead {
+    font-size: 2rem;
+  }
+  #tabledata {
+    font-size: 1.25rem;
+  }
+  table {
+    width: 90%;
+    margin: auto auto 10px auto;
+  }
+  td {
+    padding: 1px 10px 1px 10px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #home {
+    background-size: 350px, auto;
+  }
+  #mainTopic {
+    font-size: 7rem;
+    text-align: center;
+  }
+
+  /*timer popup*/
+  .card {
+    width: 90%;
+  }
+  .numbers {
+    font-size: 3rem;
+  }
+  #timerhead {
+  font-size: 2rem;
+  }
+  #timertopic {
+  font-size: 1.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .newline {
+    display: initial;
+  }
+  
+  /*timer popup*/
+  .card {
+    width: 90%;
+  }
+  .numbers {
+    font-size: 3rem;
+  }
+  #timerhead {
+  font-size: 2rem;
+  }
+  #timertopic {
+  font-size: 1.8rem;
+  }
+  
+}
+
+@media only screen and (max-width: 414px) {
+  #mainTopic {
+    font-size: 6rem;
+    text-align: center;
+  }
+
+  /*timer popup*/
+  .card {
+    width: 90%;
+  }
+  .numbers {
+    font-size: 2.8rem;
+  }
+  #timerhead {
+  font-size: 1.8rem;
+  }
+  #timertopic {
+  font-size: 1.5rem;
+  }
+  
+  
+}
+
+@media only screen and (max-width: 384px) {
+  #mainTopic {
+    font-size: 6rem;
+    text-align: center;
+  }
+
+  /*timer popup*/
+  .card {
+    width: 90%;
+  }
+  .numbers {
+    font-size: 2.6rem;
+  }
+  #timerhead {
+  font-size: 1.6rem;
+  }
+  #timertopic {
+  font-size: 1.3rem;
+  }
+  
+  
+}
+
+
+@media only screen and (max-width: 360px) {
+  #mainTopic {
+    font-size: 6rem;
+    text-align: center;
+  }
+
+  /*timer popup*/
+  .card {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+  .numbers {
+    font-size: 2.5rem;
+  }
+  #timerhead {
+  font-size: 1.5rem;
+  }
+  #timertopic {
+  font-size: 1.3rem;
+  }
+
+  /*finalist popup*/
+  #tablehead {
+    font-size: 1.6rem;
+  }
+  #tabledata {
+    font-size: 1.1rem;
+  }
+  table {
+    width: 90%;
+    margin: auto auto 10px auto;
+  }
+  td {
+    padding: 1px 10px 1px 10px;
+  }
+  
+  
+}
+
+
+@media only screen and (max-width: 320px) {
+  #mainTopic {
+    font-size: 6rem;
+    text-align: center;
+  }
+
+  /*timer popup*/
+  .card {
+    width: 90%;
+    font-size: 1.2rem;
+
+  }
+  .numbers {
+    font-size: 2.4rem;
+  }
+  #timerhead {
+  font-size: 1.4rem;
+  }
+  #timertopic {
+  font-size: 1.2rem;
+  }
+  
+  /*finalist popup*/
+  #tablehead {
+    font-size: 1.5rem;
+  }
+  #tabledata {
+    font-size: 1rem;
+  }
+  table {
+    width: 90%;
+    margin: auto auto 10px auto;
+  }
+  td {
+    padding: 1px 5px 1px 5px;
+  }
+}
